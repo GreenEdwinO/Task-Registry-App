@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
         const task = input.value;
 
         if (!task) {
-            alert("Please fill out the task");
+            alert("Please input a Task");
             return;
         }
         const task_el = document.createElement("div");
@@ -61,6 +61,9 @@ window.addEventListener('load', () => {
         });
 
         task_delete_el.addEventListener('click', () => {
+            if ('onclick') {
+                alert('You are about to delete this Task?');
+            }
             list_el.removeChild(task_el);
         });
     });

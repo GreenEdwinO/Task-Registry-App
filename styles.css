@@ -24,7 +24,8 @@ body {
 }
 
 header {
-    padding: 3rem 1.8rem;
+    padding: 3rem 2rem;
+    padding-left: 3rem;
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
@@ -86,6 +87,7 @@ button {
 main {
     flex: 1 1 0%;
     padding: 2rem 1rem;
+    padding-left: 2rem;
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
